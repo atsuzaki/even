@@ -1,4 +1,6 @@
 @import "normalize";
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 
 $theme-color-map: (
   'Default': #c05b4d #f8f5ec,
@@ -14,6 +16,8 @@ $secondary-colour: #f8f5ec;
 $body-width: 800px;
 $mobile-navbar-height: 50px !default;
 $code-colour: #c7254e;
+$font-family: "Didact Gothic", sans-serif;
+$bold-font-family: "Lato", sans-serif;
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
 
 @mixin min-screen($min-width: $body-width) {

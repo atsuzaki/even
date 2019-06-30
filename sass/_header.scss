@@ -1,16 +1,18 @@
 #header {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-
-  .logo {
-    a {
-      font-size: 48px;
-    }
-  }
+  z-index: 2;
+  padding: 0 20px 20px;
 
   .menu {
-    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .logo {
+      a {
+        font-size: 28px;
+      }
+    }
 
     ul {
       display: inline-block;

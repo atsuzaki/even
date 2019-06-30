@@ -1,6 +1,16 @@
 main {
   clear: both;
 
+  strong {
+    font-weight: 700;
+    font-family: $bold-font-family, Helvetica, Arial, sans-serif;
+  }
+
+  h2, h3, h4, h5, h6 {
+      font-weight: 700;
+      font-family: $bold-font-family, Helvetica, Arial, sans-serif;
+  }
+
   .content {
     padding: 0 20px;
   }
@@ -22,10 +32,6 @@ main {
   .about,
   .post {
     padding: 1.5rem 0;
-
-    h2, h3, h4, h5, h6 {
-      font-weight: 400;
-    }
 
     code {
       padding: 3px 5px;
